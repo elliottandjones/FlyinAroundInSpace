@@ -1,0 +1,32 @@
+#vacuum {
+  background: black;
+  display: inline-block;
+  text-align: center;
+}
+
+#canvas {
+  height: calc(100vh - 120px);
+  width: 100%;
+}
+
+#warp {
+  z-index: 9;
+  margin: 20px auto 10px auto;
+  color: rgba(209, 255, 255, 1);
+  border: 2px solid;
+  padding: 1em;
+  width: 10em;
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#warp:hover {
+  background-color: rgba(22, 22, 22, 0.8);
+}
