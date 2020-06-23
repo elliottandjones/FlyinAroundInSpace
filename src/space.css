@@ -1,6 +1,6 @@
 #vacuum {
   background: black;
-  display: inline-block;
+  display: block;
   text-align: center;
 }
 
@@ -22,11 +22,47 @@
   text-decoration: none;
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
+  opacity: 00;
   bottom: 0;
   left: 0;
   right: 0;
+  cursor: pointer;
+  animation: 3s ease-in 2s 1 forwards phazein;
 }
 
 #warp:hover {
   background-color: rgba(22, 22, 22, 0.8);
+}
+
+@keyframes phazein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes phazein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes phazein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes phazein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
