@@ -1,3 +1,5 @@
-## Flyin' around in Space
+# Flyin' Around In Space
 
-TODO: lock down initial size of canvas/canvas-container.window
+In a ship (with a warp engine).
+
+Written in vanilla JavaScript, CSS3, and HTML5.
